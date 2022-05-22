@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+body {
+    background: #22222c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: floralwhite;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(243, 238, 238, 0.1);
+}
+
+/*----------start Profile Text --------------*/
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #db884a;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.education li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5 {
+    color: #db884a;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.contactInfo.education h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+/*---------- start Languages --------*/
+.contactInfo.language .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #000000;
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #db884a;
+}
+
+.percent_arm {
+    width: 100%;
+}
+
+.percent_eng {
+    width: 50%;
+}
+
+.percent_ru {
+    width: 80%;
+}
+
+/*---------- end Languages --------*/
+
+
+/*---------- start img --------*/
+.profileText .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.3);;
+}
+
+.profileText .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*---------- end Languages --------*/
+
+.profileText h2 {
+    color: #fff;
+    font-size: 1.4em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+.profileText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.container .left_Side {
+    position: relative;
+    background: #282c34;
+    padding: 40px;
+
+}
+
+.container .right_Side {
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+}
+
+
+/*---------- start right bloke --------*/
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.titleSecond {
+    color: #282c34;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-shadow: 1px 1px 1px rgba(255, 128, 0, 0.61);
+}
+
+p {
+    color: #333;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.about .box .yearCompany {
+    min-width: 150px;
+}
+
+.about .box .yearCompany h5 {
+    text-transform: uppercase;
+    color: #282c34;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.about .box .text h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #282c34;
+}
+
+/*------------------ Skills ----------*/
+.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4 {
+    text-transform: uppercase;
+    color: #757575;
+}
+
+.skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: black;
+}
+
+.skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fd9700;
+}
+
+.styleGit {
+    width: 70%;
+}
+
+.styleHtml {
+    width: 85%;
+}
+
+.styleCss {
+    width: 75%;
+}
+
+.styleJS {
+    width: 60%;
+}
+
+.styleReact {
+    width: 10%;
+}
+
+.styleNode {
+    width: 11%;
+}
+
+.styleXP {
+    width: 63%;
+}
+
+.styleWin10 {
+    width: 67%;
+}
+
+.styleLinux {
+    width: 45%;
+}
+
+.styleOffice {
+    width: 53%;
+}
+
+.styleAdobe {
+    width: 61%;
+}
+
+/*-----------------  HOBBIES -------------*/
+
+.interest ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /*display: grid;*/
+    /*grid-template-columns: repeat(4,1fr);*/
+}
+
+
+.interest ul li {
+    list-style: none;
+    color: #22222c;
+    font-weight: 500;
+    margin: 10px 0;
+
+}
+
+.interest ul li .fa-solid {
+    font-size: 18px;
+    color: #fd9700;
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 800px ) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*.interest ul{*/
+    /*    grid-template-columns: repeat(2, 1fr);*/
+    /*}*/
+}
+
+@media (max-width: 600px) {
+    .about .box {
+        flex-direction: column;
+    }
+    .about .box .yearCompany{
+        min-width: 150px;
+        margin-bottom: 5px;
+    }
+    .interest ul{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .skills .box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "cv-david-habetyan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavIdHabeTyan/CV-David-Habetyan.git"
+  },
+  "author": "David Habetyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavIdHabeTyan/CV-David-Habetyan/issues"
+  },
+  "homepage": "https://github.com/DavIdHabeTyan/CV-David-Habetyan#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
