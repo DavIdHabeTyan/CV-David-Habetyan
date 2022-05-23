@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -27,6 +28,19 @@ body {
     box-shadow: 0 35px 55px rgba(243, 238, 238, 0.1);
 }
 
+
+a{
+    color: white;
+    transition: color 2ms;
+    cursor: pointer;
+}
+a:hover{
+    color: #fd9700;
+}
+
+a:active{
+    color: #db884a;
+}
 /*----------start Profile Text --------------*/
 .profileText {
     position: relative;
