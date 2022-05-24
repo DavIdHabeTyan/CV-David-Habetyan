@@ -217,6 +217,13 @@ p {
 
 /*--------  Skills Highlights ---------*/
 
+.highlights{
+    margin-bottom: 50px;
+}
+
+.left{
+    margin-bottom: -10px;
+}
 .highlights_skills{
     display: flex;
     justify-content: space-evenly;
