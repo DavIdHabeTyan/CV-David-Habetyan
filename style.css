@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #22222c;
+    background: #21252BFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +42,7 @@ a:active{
     color: #db884a;
 }
 /*----------start Profile Text --------------*/
+
 .profileText {
     position: relative;
     display: flex;
@@ -107,6 +108,7 @@ a:active{
 
 
 /*---------- start Languages --------*/
+
 .contactInfo.language .percent {
     position: relative;
     width: 100%;
@@ -140,6 +142,7 @@ a:active{
 
 
 /*---------- start img --------*/
+
 .profileText .imgBx {
     position: relative;
     width: 200px;
@@ -201,7 +204,7 @@ a:active{
 }
 
 .titleSecond {
-    color: #282c34;
+    color: #21252BFF;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -212,7 +215,7 @@ a:active{
 }
 
 p {
-    color: #333;
+    color: #21252BFF;
 }
 
 /*--------  Skills Highlights ---------*/
@@ -225,7 +228,7 @@ p {
     list-style: none;
 }
 .highlights ul li {
-    color: #22222c;
+    color: #21252BFF;
     font-weight: 600;
     margin: 10px 0;
 }
@@ -355,7 +358,7 @@ p {
 
 .interest ul li {
     list-style: none;
-    color: #22222c;
+    color: #21252BFF;
     font-weight: 500;
     margin: 10px 0;
 
