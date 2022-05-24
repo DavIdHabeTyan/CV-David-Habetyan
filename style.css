@@ -28,19 +28,20 @@ body {
     box-shadow: 0 35px 55px rgba(243, 238, 238, 0.1);
 }
 
-a{
+a {
     color: white;
     transition: color 2ms;
     cursor: pointer;
 }
 
-a:hover{
+a:hover {
     color: #fd9700;
 }
 
-a:active{
+a:active {
     color: #db884a;
 }
+
 /*----------start Profile Text --------------*/
 
 .profileText {
@@ -217,19 +218,20 @@ p {
 
 /*--------  Skills Highlights ---------*/
 
-.highlights{
+.highlights {
     margin-bottom: 50px;
 }
 
-.left{
+.left {
     margin-bottom: -10px;
 }
-.highlights_skills{
+
+.highlights_skills {
     display: flex;
     justify-content: space-evenly;
 }
 
-.highlights ul{
+.highlights ul {
     list-style: none;
 }
 
@@ -239,7 +241,7 @@ p {
     margin: 10px 0;
 }
 
-.highlights ul li::before{
+.highlights ul li::before {
     content: '\2022';
     color: #fd9700;
     display: inline-block;
@@ -382,22 +384,24 @@ p {
     .about .box {
         flex-direction: column;
     }
-    .about .box .yearCompany{
+
+    .about .box .yearCompany {
         min-width: 150px;
         margin-bottom: 5px;
     }
-    .interest ul{
+
+    .interest ul {
         flex-flow: column wrap;
-        align-items: center;
+        align-items: flex-start;
     }
 
-    .skills .box{
+    .skills .box {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .highlights_skills{
+    .highlights_skills {
         flex-flow: column wrap;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start;
+
     }
 }
