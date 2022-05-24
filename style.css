@@ -215,6 +215,29 @@ p {
     color: #333;
 }
 
+/*--------  Skills Highlights ---------*/
+
+.highlights_skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.highlights ul{
+    list-style: none;
+}
+.highlights ul li {
+    color: #22222c;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.highlights ul li::before{
+    content: '\2022';
+    color: #fd9700;
+    display: inline-block;
+    width: 1em;
+    padding-right: 10px;
+}
+
 .about .box {
     display: flex;
     flex-direction: row;
@@ -239,7 +262,7 @@ p {
     color: #282c34;
 }
 
-/*------------------ Skills ----------*/
+/*------------------ Professional Skills ----------*/
 .skills .box {
     position: relative;
     width: 100%;
@@ -317,6 +340,8 @@ p {
     width: 61%;
 }
 
+
+
 /*-----------------  HOBBIES -------------*/
 
 .interest ul {
@@ -344,7 +369,7 @@ p {
 }
 
 
-@media (max-width: 800px ) {
+@media (max-width: 900px ) {
     .container {
         margin: 10px;
         grid-template-columns: repeat(1, 1fr);
