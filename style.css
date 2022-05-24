@@ -28,12 +28,12 @@ body {
     box-shadow: 0 35px 55px rgba(243, 238, 238, 0.1);
 }
 
-
 a{
     color: white;
     transition: color 2ms;
     cursor: pointer;
 }
+
 a:hover{
     color: #fd9700;
 }
@@ -105,7 +105,6 @@ a:active{
     color: #fff;
     font-weight: 300;
 }
-
 
 /*---------- start Languages --------*/
 
@@ -183,7 +182,6 @@ a:active{
     position: relative;
     background: #282c34;
     padding: 40px;
-
 }
 
 .container .right_Side {
@@ -191,7 +189,6 @@ a:active{
     background: #ffffff;
     padding: 40px;
 }
-
 
 /*---------- start right bloke --------*/
 
@@ -224,9 +221,11 @@ p {
     display: flex;
     justify-content: space-evenly;
 }
+
 .highlights ul{
     list-style: none;
 }
+
 .highlights ul li {
     color: #21252BFF;
     font-weight: 600;
@@ -238,14 +237,13 @@ p {
     color: #fd9700;
     display: inline-block;
     width: 1em;
-    padding-right: 10px;
+    /*padding-right: 10px;*/
 }
 
 .about .box {
     display: flex;
     flex-direction: row;
     margin: 20px 0;
-
 }
 
 .about .box .yearCompany {
@@ -343,16 +341,12 @@ p {
     width: 61%;
 }
 
-
-
 /*-----------------  HOBBIES -------------*/
 
 .interest ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    /*display: grid;*/
-    /*grid-template-columns: repeat(4,1fr);*/
 }
 
 
@@ -361,7 +355,6 @@ p {
     color: #21252BFF;
     font-weight: 500;
     margin: 10px 0;
-
 }
 
 .interest ul li .fa-solid {
@@ -371,16 +364,11 @@ p {
     margin-right: 10px;
 }
 
-
 @media (max-width: 900px ) {
     .container {
         margin: 10px;
         grid-template-columns: repeat(1, 1fr);
     }
-
-    /*.interest ul{*/
-    /*    grid-template-columns: repeat(2, 1fr);*/
-    /*}*/
 }
 
 @media (max-width: 600px) {
@@ -398,5 +386,11 @@ p {
 
     .skills .box{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .highlights_skills{
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
     }
 }
