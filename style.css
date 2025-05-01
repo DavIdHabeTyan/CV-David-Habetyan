@@ -198,6 +198,9 @@ a:active {
 .about {
     margin-bottom: 50px;
 }
+.about p {
+    font-size: 14px;
+}
 
 .about:last-child {
     margin-bottom: 0;
@@ -224,6 +227,9 @@ p {
     margin-bottom: 50px;
 }
 
+.highlights ul li {
+    font-size: 14px;
+}
 .left {
     margin-bottom: -10px;
 }
@@ -266,6 +272,7 @@ p {
     color: #282c34;
     font-weight: 600;
     margin-bottom: 6px;
+    font-size: 13px;
 }
 
 .about .box .text h4 {
